@@ -33,6 +33,8 @@ public class Mazmorra {
         System.out.println("¿Cual es tu nombre de heroe?: ");
         String nuevoNombre=scanner.nextLine();
         aventurero.setNombreAventurero(nuevoNombre);
+
+        System.out.println("¿Cual es el nombre de tu enemigo: ");
         
     }
 }
