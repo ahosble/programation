@@ -28,6 +28,7 @@ public class Aventurero {
                 vidaActualAventurero = vidaMaximoAventurero; 
             }
             System.out.println("Has bebido una poción! Vida actual: " + vidaActualAventurero);
+            cantidadPociones--;
         } else {
             System.out.println("No dispones de pociones");
         }
